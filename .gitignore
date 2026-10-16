@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+# 실행 결과는 로컬에만 둔다. 최종 리포트는 reports/ 에 남는다.
+data/runs/*
+!data/runs/.gitkeep

@@ -1,0 +1,34 @@
+{
+  "id": "seoyun",
+  "story_start_date": "2026-03-01",
+  "hemisphere": "north",
+  "state": {
+    "immutable": {
+      "name": "한서윤",
+      "birth_year": 1998,
+      "hometown": "부산",
+      "family": [{ "relation": "어머니", "name": "김정희", "alive": true }],
+      "core_traits": { "mbti": "INFJ", "temperament": "조용하고 관찰력이 강함" }
+    },
+    "slow": {
+      "job": "출판사 편집자",
+      "residence": "서울 마포구 원룸",
+      "relationships": [{ "name": "이도현", "relation": "대학 동기", "closeness": 0.7 }],
+      "long_term_goal": "자기 책을 내는 것",
+      "change_log": []
+    },
+    "volatile": {
+      "mood": "피곤함",
+      "health": "감기 기운",
+      "money": "월급 전 빠듯함",
+      "open_concerns": ["마감 원고가 늦어짐"],
+      "scene": { "location": "cafe", "activity": "laptop_work", "time_of_day": "evening", "weather": "rain" }
+    },
+    "memory": {
+      "recent_days": [],
+      "weekly_summaries": [],
+      "cast": [{ "name": "이도현", "relation": "대학 동기", "first_seen_day": 0, "status": "active" }],
+      "open_threads": ["도현과 주말 약속"]
+    }
+  }
+}

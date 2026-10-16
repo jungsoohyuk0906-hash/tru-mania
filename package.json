@@ -1,0 +1,34 @@
+{
+  "name": "trumovie",
+  "version": "0.0.0",
+  "description": "트루무비 0단계 — 인물 1명 60일 연속 생성 검증",
+  "scripts": {
+    "stage0": "tsx scripts/run-stage0.ts",
+    "report": "tsx scripts/report-stage0.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungsoohyuk0906-hash/tru-mania.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jungsoohyuk0906-hash/tru-mania/issues"
+  },
+  "homepage": "https://github.com/jungsoohyuk0906-hash/tru-mania#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  }
+}
